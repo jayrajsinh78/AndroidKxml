@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ThunderboltApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.ThunderboltApp.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/C_0B1C12</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.ThunderboltApp" parent="Base.Theme.ThunderboltApp" />
+
+    <style name="ImageTrim">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Circular10">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Circular12">
+        <item name="cornerSize">12%</item>
+    </style>
+
+    <style name="Circular50">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Circular8">
+        <item name="cornerSize">8%</item>
+    </style>
+
+    <style name="Circular6">
+        <item name="cornerSize">6%</item>
+    </style>
+
+    <style name="dialog">
+        <!--  title encapsulating main part (backgroud) of custom alertdialog  -->
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <!--  turn off any drawable used to draw a frame on the window  -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--  turn off any drawable used to draw a frame on the window  -->
+        <item name="android:windowIsFloating">true</item>
+        <!--  float the window so it does not fill the screen  -->
+        <item name="android:windowNoTitle">true</item>
+        <!--  remove the title bar we make our own -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--  remove the shadow from under the title bar  -->
+    </style>
+
+    <!--This overrides the cornerFamily and cornerSize of the default material design button-->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dp_14</item>
+    </style>
+
+
+</resources>
