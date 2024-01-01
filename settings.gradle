@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 
 
-rootProject.name = "AndroidArc"
+rootProject.name = "AndroidArchitectureKXml"
 include ':app'
